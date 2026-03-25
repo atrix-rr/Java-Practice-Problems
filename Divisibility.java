@@ -5,7 +5,7 @@ class Divisibility
     {
         Scanner sc=new Scanner(System.in);
 
-        System.out.println("Enter a Number");
+        System.out.println("Enter the Number");
         int Num=sc.nextInt();
 
         if(Num%5==0 && Num%11==0)
