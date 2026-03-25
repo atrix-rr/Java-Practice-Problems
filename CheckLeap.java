@@ -5,7 +5,7 @@ class CheckLeap
     {
         Scanner sc=new Scanner(System.in);
         
-        System.out.println("Enter ther year");
+        System.out.println("Enter the year");
         int Year=sc.nextInt();
 
         if(Year%4==0)
