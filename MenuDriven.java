@@ -16,7 +16,7 @@ class MenuDriven {
                 double R = sc.nextDouble();
                 double A = 3.14 * R * R;
                 System.out.println("Area is:" + A);
-                break
+                break;
 
             case 2:
                 System.out.println("Enter Length and Breadth");
@@ -24,16 +24,17 @@ class MenuDriven {
                 double B = sc.nextDouble();
                 double Ar = L * B;
                 System.out.println("Area is:" + Ar);
+                break;
 
             case 3:
                 System.out.println("Enter Side");
                 double S = sc.nextDouble();
-                double a = ;
+                double a = S * S;
                 System.out.println("Area is:" + a);
+                break;
 
             default:
                 System.out.println("Invalis choice");
-                ;
 
         }
     }
