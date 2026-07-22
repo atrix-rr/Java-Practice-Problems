@@ -6,7 +6,7 @@ class SpecialNumber {
         System.out.println("Enter Number");
         int num = sc.nextInt();
 
-        int f,n=0
+        int f, n = 0;
 
     }
 }
